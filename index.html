@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" />
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz application</title>
+</head>
+<body>
+    <!-- Quiz configuration container -->
+   
+    <div class="container">
+   
+     <div>
+    <h2 class="qzconf" >Quiz Configuration</h2>
+    </div>
+    
+    <div class="config-opt">
+        <h4 class="option_title">Select Category</h4>
+        <div class="category_options">
+            <button class="category_option active">Programming</button>
+            <button class="category_option">Geography</button>
+            <button class="category_option">Mathematics</button>
+            <button class="category_option">Entertainment</button>
+        </div>
+    </div>
+
+    <div class="qz_numbers">
+        <h4 class="chose_number">Number of questions</h4>
+        <div class="question_options">
+            <button class="question_option">5</button>
+            <button class="question_option active">10</button>
+            <button class="question_option">15</button>
+            <button class="question_option">20</button>
+            <button class="question_option">25</button>
+        </div>
+         <button class="start">Start Quiz</button>
+    </div>    
+
+</div> 
+
+    <!-- Quiz configuration container -->
+     <div class="quizcontainer">
+        <div class="header">
+            <h2 class="Qz_app">Quiz Application</h2>
+            <div class="tim">
+            <span class="material-symbols-rounded">timer</span>               
+                 <p class="time">15s</p>
+            </div>
+        </div>
+       
+
+        <div class="quiz_content">
+            <h1 class="quiz_qst"></h1>
+            <ul class="answert_opt">
+                
+            </ul>
+        </div>
+    
+
+    <div class="qz_footer">
+        <p class="qst_status"><b>1</b> of <b>10</b> questions</p>
+        <button class="next_qst">
+            Next
+            <span class="material-symbols-rounded">arrow_right_alt</span>
+        </button>
+    </div>
+
+</div>
+
+<div class="result_container">
+       <img src="qq.webp" class="img_res">
+       <h2 class="result_title">Quiz Completed !</h2>
+       <p class="result_msg">You answred <b>3</b> of <b>10</b> questions correctly. Great effort </p>
+       <button class="try_again">Try again</button>
+</div>
+<script src="qst.js"> </script>
+    <script src="script.js"> </script>
+</body>
+</html>
