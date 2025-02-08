@@ -14,7 +14,7 @@ const container = document.querySelector(".container");
 
 
 
-const quiz_time_limit = 10 ;
+const quiz_time_limit = 15 ;
 let currenttime = quiz_time_limit ; 
 let timer = null;    
 let currentQuestion = null ;
